@@ -1,11 +1,22 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Blog from '../Blog/Blog';
 import "./Body.css"
 
 const Body = () => {
+    const [data, setData] = useState([]);
+
+    useEffect(()=>{
+         fetch('data.json')
+         .then(res=> res.json() )
+         .then(data=> setData(data))
+    }, [])
     return (
+
         <div className='body-container'>
             <div className="blog-container">
-                <h3>BLog page</h3>
+                {
+                    data.map(data => <Blog key={data._id}></Blog>)
+                }
 
             </div>
             <div className="list-container">

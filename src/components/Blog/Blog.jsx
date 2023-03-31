@@ -1,8 +1,14 @@
 import React from 'react';
 import "./Blog.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBookmark } from '@fortawesome/free-solid-svg-icons'
+
 
 const Blog = (props) => {
     const {_id, blogCoverImage, authorImage, read_time, author_name, blogTitle, publishDate} = props.data;
+    const handleAddToList =props.handleAddToList;
+
+   
 
     return (
         <div className='blogContainer'>
@@ -11,19 +17,22 @@ const Blog = (props) => {
             <div className='namePart'>
                 <img className='author-img' src={authorImage}></img>
                 
-                <div>
+                <div className='nameStyle'>
                     <h3>{author_name}</h3>
-                    <h5>{publishDate}</h5>
+                    <h5>{publishDate} / 3d ago</h5>
                 </div>
 
             </div>
              
-             <h6>{read_time}m read</h6>
+             <h6>{read_time}m read 
+             <FontAwesomeIcon icon={faBookmark} />
+             </h6>
                 
             </div>
             <h2 className='blog-title'>{blogTitle}</h2>
             <h6>#beginners #programming</h6>
-            <a href="">Mark as read</a>
+            <button onClick={()=> handleAddToList(props.data)  }>            Mark as read
+ </button>
 
         </div>
     );

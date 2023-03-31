@@ -13,10 +13,17 @@ margin-right: 40px;
 
 .blogContainer-img{
  width: 950px;
- height: 350px;
+ height: 450px;
  
 
 
+}
+.blog-title{
+    font-family: 'Exo 2';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 160%;
 }
 .author-img{
     width: 50px;

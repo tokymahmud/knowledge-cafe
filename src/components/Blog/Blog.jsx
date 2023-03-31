@@ -21,7 +21,7 @@ const Blog = (props) => {
              <h6>{read_time}m read</h6>
                 
             </div>
-            <h2>{blogTitle}</h2>
+            <h2 className='blog-title'>{blogTitle}</h2>
             <h6>#beginners #programming</h6>
             <a href="">Mark as read</a>
 

@@ -15,7 +15,9 @@ const Body = () => {
         <div className='body-container'>
             <div className="blog-container">
                 {
-                    data.map(data => <Blog key={data._id}></Blog>)
+                    data.map(data => <Blog key={data._id}
+                    data = {data}
+                    ></Blog>)
                 }
 
             </div>

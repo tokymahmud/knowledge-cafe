@@ -1,0 +1,38 @@
+[
+    {
+      "_id": "6426700f73a2ebc69457bc22",
+      "blogCoverImage": "https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?w=996&t=st=1680240510~exp=1680241110~hmac=a178d1f63d322d8e7146774abfe86429fda58558dc3c374bb806d5acc931a851",
+      "authorImage": "https://www.freepik.com/free-photo/studio-portrait-bearded-man-posing-beige-background-looking-into-camera-with-broad-smile-his-face_26117889.htm#query=potrait&position=17&from_view=search&track=sph",
+      "read_time": 9,
+      "author_name": "Linda Paul",
+      "blogTitle": "How to get your first job as a self-taught programmer",
+      "publishDate": "July 09"
+    },
+    {
+      "_id": "6426700f703c510889c586e0",
+      "blogCoverImage": "https://img.freepik.com/free-photo/close-up-image-programer-working-his-desk-office_1098-18707.jpg?w=996&t=st=1680240693~exp=1680241293~hmac=8652855e26e5dafcec762e2a0159302d30ac7967127f5a4b7d43555d3ba7f23e",
+      "authorImage": "https://www.freepik.com/free-photo/studio-portrait-bearded-man-posing-beige-background-looking-into-camera-with-broad-smile-his-face_26117889.htm#query=potrait&position=17&from_view=search&track=sph",
+      "read_time": 7,
+      "author_name": "Eva Clayton",
+      "blogTitle": "Master Microsoft Power Platform and Become an In-Demand!",
+      "publishDate": "February 11"
+    },
+    {
+      "_id": "6426700f476632735bada8c9",
+      "blogCoverImage": "https://www.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_4102879.htm#query=computer%20programming&position=4&from_view=search&track=ais",
+      "authorImage": "https://www.freepik.com/free-photo/studio-portrait-bearded-man-posing-beige-background-looking-into-camera-with-broad-smile-his-face_26117889.htm#query=potrait&position=17&from_view=search&track=sph",
+      "read_time": 9,
+      "author_name": "Mia Mathews",
+      "blogTitle": "How to get your first job as a self-taught programmer",
+      "publishDate": "May 24"
+    },
+    {
+      "_id": "6426700f76363078fd15918a",
+      "blogCoverImage": "https://img.freepik.com/free-photo/it-specialist-checking-code-computer-dark-office-night_1098-18699.jpg?w=996&t=st=1680241062~exp=1680241662~hmac=2d58d936da40cd60b81851c6ef1ede91115b856038aba4c2ec89a0c19e1ddde6",
+      "authorImage": "https://www.freepik.com/free-photo/studio-portrait-bearded-man-posing-beige-background-looking-into-camera-with-broad-smile-his-face_26117889.htm#query=potrait&position=17&from_view=search&track=sph",
+      "read_time": 9,
+      "author_name": "Rosa Keller",
+      "blogTitle": "How to get your first job as a self-taught programmer in google lab",
+      "publishDate": "March 14"
+    }
+  ]

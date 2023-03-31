@@ -1,0 +1,33 @@
+.header{
+    height: 80px;
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+}
+.header-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.header-right img{
+    position: relative;
+width: 60px;
+height: 60px;
+/* left: 1540px; */
+/* top: 52px; */
+border-radius: 50%;
+
+}
+
+.header-right a{
+ color: white;
+ text-decoration: none;
+}
+
+.header-right a:hover {
+    color: #f3af03;
+
+  }  

@@ -42,3 +42,20 @@ border-radius: 50%;
 .nameStyle{
     gap: 3px;
 }
+
+@media screen and (max-width: 600px) and (min-width: 400px)  {
+    .blogContainer-img{
+        width: auto;
+        height: auto;
+        
+       
+       
+       }
+       .blog-title{
+           font-family: 'Exo 2';
+       font-style: normal;
+       font-weight: 500;
+       font-size: 20px;
+       line-height: 160%;
+       }
+}

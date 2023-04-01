@@ -15,7 +15,7 @@ const List = (props) => {
         <div>
              <h4 className='listOne'>Spent time on read : {total} min</h4>
                 <h4 className='listOne'>Bookmarked Blogs :{totalBookmark}</h4>
-                <h3 className='BookmarkPage'></h3>
+                <h3 className='BookmarkPage'>{list.blogTitle}</h3>
         </div>
     );
 };

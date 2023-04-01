@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Blog from '../Blog/Blog';
+import BlogQA from '../BlogQA/BlogQA';
 import List from '../List/List';
 import "./Body.css"
 
@@ -28,6 +29,7 @@ const Body = () => {
 
 
     return (
+        <div>
 
         <div className='body-container'>
             <div className="blog-container">
@@ -46,7 +48,10 @@ const Body = () => {
                ></List>
                
             </div>
+            <BlogQA></BlogQA>
             
+        </div>
+        
         </div>
     );
 };

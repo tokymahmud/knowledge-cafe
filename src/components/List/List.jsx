@@ -1,5 +1,7 @@
 import React from 'react';
 import './List.css'
+// import Swal from 'sweetalert2'
+// import withReactContent from 'sweetalert2-react-content'
 
 const List = (props) => {
     const {list, listB} =props;
@@ -12,6 +14,24 @@ const List = (props) => {
     for (const name of listB ){
         totalBookmark = totalBookmark + 1;
         bookMname =bookMname +name.blogTitle
+//         if(bookMname === name.blogTitle){
+//             const MySwal = withReactContent(Swal)
+
+// MySwal.fire({
+//   title: <p>Already available</p>,
+//   didOpen: () => {
+//     // `MySwal` is a subclass of `Swal` with all the same instance & static methods
+//     MySwal.showLoading()
+//   },
+// }).then(() => {
+//   return MySwal.fire(<p></p>)
+// })
+
+//         }
+//         else{
+           
+//         }
+
     }
     return (
         <div>

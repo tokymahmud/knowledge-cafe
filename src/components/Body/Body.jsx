@@ -6,6 +6,7 @@ import "./Body.css"
 const Body = () => {
     const [data, setData] = useState([]);
     const [list, setList] =useState([]);
+    const [listB, setListB] =useState([]);
 
     useEffect(()=>{
          fetch('data.json')
@@ -18,6 +19,11 @@ const Body = () => {
         setList(newList);
 
     }
+    const handleAddToB =(data)=>{
+        const newListB = [...listB, data];
+        setListB(newListB);
+    }
+    
 
 
 
@@ -29,12 +35,16 @@ const Body = () => {
                     data.map(data => <Blog key={data._id}
                     data = {data}
                     handleAddToList ={handleAddToList}
+                    handleAddToB ={handleAddToB}
                     ></Blog>)
                 }
 
             </div>
             <div className="list-container">
-               <List list={list}></List>
+               <List list={list}
+               listB ={listB}
+               ></List>
+               
             </div>
             
         </div>

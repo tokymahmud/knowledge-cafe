@@ -3,6 +3,7 @@ import "./Header.css"
 
 const Header = () => {
     return (
+        <div>
         <div className='header'>
             <h2>Knowledge Cafe</h2>
             <div className='header-right'>
@@ -11,6 +12,9 @@ const Header = () => {
                 <a href="">subscribe</a>
                 <img src="../../../img/images.jpg" alt="" />
             </div>
+            
+        </div>
+        <hr></hr>
         </div>
     );
 };
